@@ -15,10 +15,10 @@ exports.getRestaurants = function (req, res) {
 }
 
 exports.getRestaurant = function (req, res) {
-    if (req.params.restaurantId && restaurants.length>0) {
+    if (req.query.restaurantId && restaurants.length>0) {
         for (let i in restaurants) {
             console.log(restaurants[i])
-            if (restaurants[i]["restaurantId"] == (req.params.restaurantId)){
+            if (restaurants[i]["restaurantId"] == (req.query.restaurantId)){
                 res.send({ "restaurantDetails": restaurants[i] })
             }
         }
