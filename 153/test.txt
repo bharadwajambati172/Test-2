@@ -1,0 +1,2 @@
+docker ps => to show the running containers
+docker stop $(docker ps -a -q)

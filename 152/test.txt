@@ -1,0 +1,8 @@
+docker pull nginx
+docker run -it nginx /bin/bash
+apt-get update
+apt-get install git
+docker ps -a
+docker start nginx(container_id)
+docker commit container_id new_image_name
+
