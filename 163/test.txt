@@ -1,0 +1,2 @@
+git fetch => It will updates the remote-tracking branch. It will show all the changes
+git pull => It will do git fetch and then merge the code into the remote-tracking branch

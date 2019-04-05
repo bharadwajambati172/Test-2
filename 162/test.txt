@@ -1,0 +1,1 @@
+git diff latest_commit_hash previous_commit_has

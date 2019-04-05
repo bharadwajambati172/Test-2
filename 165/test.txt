@@ -1,0 +1,2 @@
+git push —delete <remote-branch-name> <branchname>
+git branch -d branchname
