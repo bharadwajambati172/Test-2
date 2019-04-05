@@ -21,7 +21,6 @@ func main() {
         return
     }
     for s.Scan() {
-        fmt.Println(s.Text())
         length := len(strings.Replace(s.Text()," ","",-1))
         t := strconv.Itoa(length)
         data := s.Text()+" : "+t

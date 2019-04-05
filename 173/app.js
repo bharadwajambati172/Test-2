@@ -1,5 +1,4 @@
 let words = ["war", "eat","donut", "pizza", "raw", "ate", "apizz"]
-let result={}
 
 function sortWord(word){
     let result=word.split("")
@@ -9,7 +8,6 @@ function sortWord(word){
 
 let output=[]
 for(let i in words){
-        result[words[i]]=[]
         let values=words.filter((x)=>{
             if(sortWord(x)===sortWord(words[i])){
                 return x
