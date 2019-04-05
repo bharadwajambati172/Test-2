@@ -1,0 +1,9 @@
+To push an image to docker hub
+
+docker login --username=bharadwajambati1995
+//enter the password
+docker tag hello-world-test bharadwajambati1995/hello-world-test:latest
+docker push bharadwajambati1995/hello-world-test:latest
+
+
+docker image link: https://hub.docker.com/r/bharadwajambati1995/hello-world-test
